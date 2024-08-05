@@ -47,10 +47,12 @@ The Web relies on three different programming languages — HTML (HyperText Mark
 ### HTML Bold and Italics 
 
 - There are four HTML elements related to this, two for bold and two for italic. 
-- Italic: <em>Whenever you want to emphasis a sentence</em>, <i> to distinguish simply visually, such as a movie title</i> 
-- Bold:  <strong> used to show importance, seriousness, or urgency </strong>, <b> more generic and neutral and it does not carry any specific meaning </b> 
+- Italic:<code> <em>Whenever you want to emphasis a sentence</em>, <i> to distinguish simply visually, such as a movie title</i> </code>
+- Bold:  <code> <strong> used to show importance, seriousness, or urgency </strong>, <b> more generic and neutral and it does not carry any specific meaning </b> </code>
 
-To summarize, there are four elements in HTML that allow us to mark text as bold or italicized. Two of them, "<em>" and "<strong>", convey meaning and serve a language-related purpose. The other two, "<i>" and "<b>", do not carry any specific meaning and are used solely for visual styling. 
+<code> 
+<b> To summarize, there are four elements in HTML that allow us to mark text as bold or italicized. Two of them, "<em>" and "<strong>", convey meaning and serve a language-related purpose. The other two, "<i>" and "<b>", do not carry any specific meaning and are used solely for visual styling. <b>
+</code>
 
  
 ### HTML Lists 
@@ -62,15 +64,45 @@ In HTML, there are three types of lists: unordered lists, ordered lists, and def
 - Unordered and ordered lists are quite similar, except for the wrapping element they use. 
 - In HTML, there is another type of list called the "definition list" or "description list."<dl></dl>. Unlike unordered or ordered lists with their list items. This is basically like you are creating a list of definitions. Within the <dl> tags you first add <dt></dt> and within that tag, it would be the definition title. After the <dt> tags you add <dd></dd> tags as the "definition description". 
 
-In summary, we now have three types of lists in HTML: unordered lists, ordered lists, and definition lists.  
+<b>In summary, we now have three types of lists in HTML: unordered lists, ordered lists, and definition lists.</b>
 
 ### HTML Quotes 
 
 To create something that looks like a quote you do this: 
-
-// <blockquote> 
+<code>
+<blockquote> 
 <p> "write the quote here"</p> 
 <cite>-name from who the quote came from</cite> (it would be italic) 
 </blockquote> 
+</code>
 
+<q></q>= These quotes are simply typed in, but we believe they should be curly quotes, not straight ones
+- HTML attributes provide additional information to HTML elements. In this case, the datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this: <time datetime="2025-05-08">May 8, 2025</time>.(Date Element)
+-  for time stamps: <code><time datetime="14:15:28.5">14:15:28.5</time>.</code> (Time element)
+
+<b> That is a basic introduction to HTML attributes, and we will delve deeper into them in a later section. For now, it is important to know that using the datetime attribute helps us communicate the precise timing to computers. <b>
+
+### HTML Date and Time Inputs
+
+ - To format a specific moment or range in time in a way that computers can understand, we use the <time> element. It consists of an opening tag <code> (<time>) and a closing tag (</time>) </code>. For example, we can use it like this: <code> <time>May 8th</time> or <time>May 8th 2025</time> </code>
+ - the main purpose of the <code> <time> </code> element is to convey the exact date or time to computers. To achieve this, we use an HTML attribute called "datetime."
+
+<b> That is a basic introduction to HTML attributes, and we'll delve deeper into them in a later section. For now, it's important to know that using the datetime attribute helps us communicate the precise timing to computers. </b>
+
+### HTML Code, pre and br
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
  
