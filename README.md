@@ -48,7 +48,7 @@ The Web relies on three different programming languages — HTML (HyperText Mark
 
 - There are four HTML elements related to this, two for bold and two for italic. 
 - Italic: <em>Whenever you want to emphasis a sentence</em>, <i> to distinguish simply visually, such as a movie title</i> 
-- Bold:  <strong> used to show importance, seriousness, or urgency </strong>, <b> more generic and neutral and it does not carry any specific meaning </b> 
+- Bold:  "<strong>" used to show importance, seriousness, or urgency </strong>, <b> more generic and neutral and it does not carry any specific meaning </b> 
 
 To summarize, there are four elements in HTML that allow us to mark text as bold or italicized. Two of them, "<em>" and "<strong>", convey meaning and serve a language-related purpose. The other two, "<i>" and "<b>", do not carry any specific meaning and are used solely for visual styling. 
 
