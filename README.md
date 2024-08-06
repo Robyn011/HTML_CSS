@@ -113,6 +113,149 @@ To access the developer tools, we can either right-click on the demo and select 
 
   <b>As a user, you can modify the content, but please note that refreshing the webpage will revert it back to the original state. This is because HTML alone only provides the editing functionality; the back-end developers need to create a system for capturing and saving the new content. The process of saving content varies across different websites and is typically implemented in JavaScript.</b>
 
+### Aria Roles
+
+- ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent.
+- They make it possible for people with disabilities to use. Without them, it would be against the law if the websie is inaccessible for people with disabilities.
+- ARIA came about when the web began replacing native applications, and it is particularly valuable for ensuring that everyone can use the full functionality of a complex interface in an app.
+- ARIA is a powerful tool that greatly enhances web accessibility and is worth exploring further, especially working with a team struggling with semantic HTML or building a complex application interface
+- ARIA Roles provide the necessary tools to make your site accessible to everyone.
+
+### Formatting HTML
+
+- If you use elements like <pre>, <code>, or <textarea>, or if you modify the whitespace handling with CSS, then extra spaces and indentations can matter
+- In HTML, comments are inserted by typing "<!--" at the start and "-->" at the end. This feature helps us quickly identify when code is commented out and prevents any confusion when it does not function as expected.
+- <video src= "file.mov"></video>
+- <canvas></canvas>
+- <img src= ""/>
+
+### Unusual Characters
+
+- character chart: https://www.w3schools.com/html/html_symbols.asp
+
+## HTML Navigation and Linking
+
+### HTML Links
+
+- <a href = "https://example.com">This is a link.</a>
+- <p>This is a sentence <a href = "https://example.com">witha link</a> in the midset od the text</p>
+- <p><a href = "https://example.com"><img src = "https://graphiccreationlab.weebly.com/uploads/5/1/1/2/51125965/3976798_orig.jpg"></a></p>
+- When we want to create a link, <i>we use the A element</i>, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference, a nerdy phrase from the past. Between the opening and closing A tags, we can place text or images, or both, to make them clickable.
+- he A element is inline and can be placed within a paragraph or any other text, or even the image itself.
+- the difference between HTTP and HTTPS: The "S" in HTTPS stands for Secure
+
+<b>When creating links as developers or content creators, we need to include them ourselves. This protocol was one of the most significant inventions when the web was created. This is how links are made using absolute URLs.</b>
+
+### HTML URL Pathways
+
+- When linking to something within the same site and domain as the page containing the link URL can be used
+- Creating a relative URL is not only useful for the A element (linking), but it is also a skill used to reference image files, video files, CSS, JavaScript files, or any other where a file’s path is specified.
+- URLs can be either relative or absolute. Relative URLs are based on the current file's location, while absolute URLs start from the root of the website. By using folders and index.html files, we can create clean and user-friendly URLs.
+
+### Navigation
+
+- Each link is wrapped in an element with the correct URL, and then enclosed in an "li" element to create a list of links. To maintain the order, wrap the whole list in a "ul" element, which represents an unordered list. Finally, encompass the entire menu in a "nav" element to indicate that it is the site's navigation.
+
+## HTML Working with Graphics and Images
+
+### Images
+- When we want to add an image to a webpage, we use the image element, which is simply written as IMG. <img src = "image.jpg" alt= "brown dog" width = "400" height = "300">
+
+elements we need to include within every image attribute:
+1. we need the source attribute(SRC)
+2. we need the alt attribute(ALT)
+3. we need the width and the height of the image aka the width and heigh attribute
+
+<b>It does not matter whether the height or the width is specified first. In HTML, the order of attributes within an element can be whatever you prefer.</b>
+
+### Image Formats
+
+There are four main file formats commonly used on the web these days, each with its own strengths and weaknesses when it comes to compressing images such as GIF, SVG, JPG, PNG.
+
+#### GIF
+- GIFs are great for compressing illustrations that have large areas of the same color
+- supports 256 colors
+- images can end up looking pixelated
+- GIFs can have transparent areas, but the edges between transparent and solid parts can be jagged.
+
+#### SVG
+- SVGs are perfect for logos, icons, and other types of illustrations
+- a vector file that contains instructions for drawing rather than individual pixels : it can be scaled to any size without losing quality, and the file size remains small
+- a programming language for graphics
+- can be exported from programs and handled just like other file formats on the web
+
+#### JPG
+- a popular choice for compressing photographs
+- Most digital cameras save images in JPG format, but when placed on the web, it is important to resize and compress them appropriately.
+- Avoid using gigantic, half-compressed JPGs on your websites : Slows down your website
+
+#### PNG
+- is a newer format
+- works well when you need transparency in a photograph
+- sometimes outperforms both GIF and JPG in compressing certain types of images
+
+### Figcaption and Figures
+- to match a caption to that image
+  <figure>
+   <img src = "random.png" width = "960" height = "720" alt = "shiny black dog in the sun">
+   <figcaption> Write any caption over here :) </figcaption>
+  </figure>
+- Use the figcaption element to wrap the text and designate it as a caption
+- It is not just a regular paragraph or a generic div.
+- Figures can be used for more than just images e.g: use them for an interactive graphic
+
+## Working with Media
+
+### Working With Audio
+- The audio element is different from the image element because it has both an opening and a closing tag
+- more modern and gives it more power and flexibility.
+- we use a source attribute to provide the URL of the audio file
+<audio controls src ="audio.mp3"></audio>
+- different audio files: MP3
+<audio conrols>
+
+ <source
+    src = "http:example.com/birds.ogg"
+     type = "audio/ogg; codec=opus">
+   <source
+     src = "https://s3-us-west-2amazonaws.com/s.odpo.io/10558/birds.mp3"
+      type = "audio/mpeg">
+   Sorry your browser does not support audio.
+
+</audio>
+
+<b>There are other attributes that can be used with the audio element too. For example, "loop" will make the file repeat from the beginning once it reaches the end. "Autoplay" can automatically play the audio as soon as the page loads, but be cautious with this one as most people dislike it when audio starts playing on a webpage without their consent. </b>
+
+### Working With Video
+
+- Just like the audio element, the video element has an opening and closing tag.
+- To display a video, use the source attribute to specify the video file.
+- the browser will automatically create a video player
+  <video>
+    <source src = "https://s3-us-hest- z.a,azonaws.com/s.cdpn.io/10558/moonwalk.480p.vp3.webn" type = "video/mp4">
+  </video>
+
+
+### Working With Captions and Subtitles
+
+![Figure_62_Working_with_the_video_captions_and_the_track_element](https://github.com/user-attachments/assets/9a5c868b-c379-4ba0-8d84-71b43de9a375)
+
+- We are going to use the track element and link it to a text file to add captions to the video
+-  element adds functionality to the video player, allowing viewers to toggle captions on and off or switch between different subtitle options
+-  file format called ibvtt - web video text tracks
+
+### Embedding Media via Iframes
+
+- refers to taking content from one site and placing it within the middle of another site's page. 
+
+![Figure_64_Working_with_the_iFrame_element](https://github.com/user-attachments/assets/02f832b2-0d39-4b4f-b908-e80bbd539d7d)
+
+
+
+
+
+
+
 
 
 
