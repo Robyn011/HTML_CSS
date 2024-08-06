@@ -47,8 +47,14 @@ The Web relies on three different programming languages — HTML (HyperText Mark
 ### HTML Bold and Italics 
 
 - There are four HTML elements related to this, two for bold and two for italic. 
-- Italic: <em>Whenever you want to emphasis a sentence</em>, <i> to distinguish simply visually, such as a movie title</i> 
-- Bold: <strong> used to show importance, seriousness, or urgency </strong>, <b> more generic and neutral and it does not carry any specific meaning </b> 
+- Italic:
+  ```html
+  <em>Whenever you want to emphasis a sentence</em>, <i> to distinguish simply visually, such as a movie title</i>
+  ```
+- Bold:
+  ```html
+  <strong> used to show importance, seriousness, or urgency </strong>, <b> more generic and neutral and it does not carry any specific meaning </b>
+  ```
 
 
 <b> To summarize, there are four elements in HTML that allow us to mark text as bold or italicized. Two of them, "<em>" and "<strong>", convey meaning and serve a language-related purpose. The other two, "<i>" and "<b>", do not carry any specific meaning and are used solely for visual styling. <b>
@@ -69,35 +75,40 @@ In HTML, there are three types of lists: unordered lists, ordered lists, and def
 ### HTML Quotes 
 
 To create something that looks like a quote you do this: 
-
+```html
 <blockquote> 
 <p> "write the quote here"</p> 
 <cite>-name from who the quote came from</cite> (it would be italic) 
 </blockquote> 
+```
 
-
+```html
 <q></q>= These quotes are simply typed in, but we believe they should be curly quotes, not straight ones
-- HTML attributes provide additional information to HTML elements. In this case, the datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this: <time datetime="2025-05-08">May 8, 2025</time>.(Date Element)
+<!-- HTML attributes provide additional information to HTML elements. In this case, the datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this-->
+<time datetime="2025-05-08">May 8, 2025</time>.(Date Element)
 -  for time stamps: <time datetime="14:15:28.5">14:15:28.5</time>.(Time element)
-
+```
 <b> That is a basic introduction to HTML attributes, and we will delve deeper into them in a later section. For now, it is important to know that using the datetime attribute helps us communicate the precise timing to computers. <b>
 
 ### HTML Date and Time Inputs
 
- - To format a specific moment or range in time in a way that computers can understand, we use the <time> element. It consists of an opening tag (<time>) and a closing tag (</time>). For example, we can use it like this: <time>May 8th</time> or <time>May 8th 2025</time>
+ - To format a specific moment or range in time in a way that computers can understand, we use the <time> element. It consists of an opening tag (<time>) and a closing tag (</time>). For example, we can use it like this:
+   ```html
+   <time>May 8th</time> or <time>May 8th 2025</time>
+   ```
  - the main purpose of the <time>  element is to convey the exact date or time to computers. To achieve this, we use an HTML attribute called "datetime."
 
 <b> That is a basic introduction to HTML attributes, and we'll delve deeper into them in a later section. For now, it's important to know that using the datetime attribute helps us communicate the precise timing to computers. </b>
 
 ### HTML Code, pre and br
-- <code></code> is used for displaying some code onto the website.
-- The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
-- The <br> element is a simple tag without an opening or closing tag.It inserts a single line break.
+- ```<code></code>``` is used for displaying some code onto the website.
+- The text inside a ```<pre>``` element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
+- The ```<br>``` element is a simple tag without an opening or closing tag.It inserts a single line break.
 
 ### HTML Superscripts, Subscripts and Small Text
-- <sub></sub> - will allow the element to drop down below the baseline and get a little smaller
-- <sup></sup>- will allow the element to jump up higher and get a little smaller.
-- <small></small> - could be used for something such as copyright
+- ```<sub></sub>``` - will allow the element to drop down below the baseline and get a little smaller
+- ```<sup></sup>```- will allow the element to jump up higher and get a little smaller.
+- ```<small></small>``` - could be used for something such as copyright
 
 <b>Small, sub, and sup are the elements that can help you get the details right when it comes to typography and conveying the full meaning of your content.</b>
 
@@ -123,11 +134,11 @@ To access the developer tools, we can either right-click on the demo and select 
 
 ### Formatting HTML
 
-- If you use elements like <pre>, <code>, or <textarea>, or if you modify the whitespace handling with CSS, then extra spaces and indentations can matter
-- In HTML, comments are inserted by typing "<!--" at the start and "-->" at the end. This feature helps us quickly identify when code is commented out and prevents any confusion when it does not function as expected.
-- <video src= "file.mov"></video>
-- <canvas></canvas>
-- <img src= ""/>
+- If you use elements like ```<pre>, <code>, or <textarea>,``` or if you modify the whitespace handling with CSS, then extra spaces and indentations can matter
+- In HTML, comments are inserted by typing ```<!--" at the start and "-->``` at the end. This feature helps us quickly identify when code is commented out and prevents any confusion when it does not function as expected.
+-``` <video src= "file.mov"></video>```
+- ```<canvas></canvas>```
+- ```<img src= ""/>```
 
 ### Unusual Characters
 
@@ -137,10 +148,10 @@ To access the developer tools, we can either right-click on the demo and select 
 
 ### HTML Links
 
-- <a href = "https://example.com">This is a link.</a>
-- <p>This is a sentence <a href = "https://example.com">witha link</a> in the midset od the text</p>
-- <p><a href = "https://example.com"><img src = "https://graphiccreationlab.weebly.com/uploads/5/1/1/2/51125965/3976798_orig.jpg"></a></p>
-- When we want to create a link, <i>we use the A element</i>, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference, a nerdy phrase from the past. Between the opening and closing A tags, we can place text or images, or both, to make them clickable.
+-``` <a href = "https://example.com">This is a link.</a>```
+- ```<p>This is a sentence <a href = "https://example.com">witha link</a> in the midset od the text</p>```
+- ```<p><a href = "https://example.com"><img src = "https://graphiccreationlab.weebly.com/uploads/5/1/1/2/51125965/3976798_orig.jpg"></a></p>```
+- When we want to create a link,``` <i>we use the A element</i>```, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference, a nerdy phrase from the past. Between the opening and closing A tags, we can place text or images, or both, to make them clickable.
 - he A element is inline and can be placed within a paragraph or any other text, or even the image itself.
 - the difference between HTTP and HTTPS: The "S" in HTTPS stands for Secure
 
@@ -159,7 +170,7 @@ To access the developer tools, we can either right-click on the demo and select 
 ## HTML Working with Graphics and Images
 
 ### Images
-- When we want to add an image to a webpage, we use the image element, which is simply written as IMG. <img src = "image.jpg" alt= "brown dog" width = "400" height = "300">
+- When we want to add an image to a webpage, we use the image element, which is simply written as IMG. ```<img src = "image.jpg" alt= "brown dog" width = "400" height = "300">```
 
 elements we need to include within every image attribute:
 1. we need the source attribute(SRC)
@@ -196,10 +207,14 @@ There are four main file formats commonly used on the web these days, each with 
 
 ### Figcaption and Figures
 - to match a caption to that image
+
+  ```html
   <figure>
    <img src = "random.png" width = "960" height = "720" alt = "shiny black dog in the sun">
    <figcaption> Write any caption over here :) </figcaption>
   </figure>
+
+
 - Use the figcaption element to wrap the text and designate it as a caption
 - It is not just a regular paragraph or a generic div.
 - Figures can be used for more than just images e.g: use them for an interactive graphic
@@ -210,8 +225,9 @@ There are four main file formats commonly used on the web these days, each with 
 - The audio element is different from the image element because it has both an opening and a closing tag
 - more modern and gives it more power and flexibility.
 - we use a source attribute to provide the URL of the audio file
-<audio controls src ="audio.mp3"></audio>
+```<audio controls src ="audio.mp3"></audio>```
 - different audio files: MP3
+```html
 <audio conrols>
 
  <source
@@ -223,6 +239,7 @@ There are four main file formats commonly used on the web these days, each with 
    Sorry your browser does not support audio.
 
 </audio>
+```
 
 <b>There are other attributes that can be used with the audio element too. For example, "loop" will make the file repeat from the beginning once it reaches the end. "Autoplay" can automatically play the audio as soon as the page loads, but be cautious with this one as most people dislike it when audio starts playing on a webpage without their consent. </b>
 
@@ -231,10 +248,11 @@ There are four main file formats commonly used on the web these days, each with 
 - Just like the audio element, the video element has an opening and closing tag.
 - To display a video, use the source attribute to specify the video file.
 - the browser will automatically create a video player
+  ```html
   <video>
     <source src = "https://s3-us-hest- z.a,azonaws.com/s.cdpn.io/10558/moonwalk.480p.vp3.webn" type = "video/mp4">
   </video>
-
+'''
 
 ### Working With Captions and Subtitles
 
