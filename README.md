@@ -268,6 +268,31 @@ There are four main file formats commonly used on the web these days, each with 
 
 ![Figure_64_Working_with_the_iFrame_element](https://github.com/user-attachments/assets/02f832b2-0d39-4b4f-b908-e80bbd539d7d)
 
+## HTML Content Identification
+
+### HTML Language Suppoort
+
+- By setting things up correctly, search engines will understand which language websites are in.
+
+![HTML-CSS101M1Fig63](https://github.com/user-attachments/assets/a4a39663-c7d0-49da-bf37-17a056c66e65)
+
+- lang: used to specify the language of a webpage.(not only to indicate language or regional versions of a language, but also other qualities like the writing system used)
+- the lang attribute is most commonly wrapped within the HTML element.
+- the lang attribute only required to be set once
+- dir- to indicate direction of where the computer should read the webpage from.
+- the dir attribute is only required to be set once
+![HTML-CSS101M1Fig64](https://github.com/user-attachments/assets/ff78bb48-9836-4750-8a82-973d161bfab5)
+
+- meta charset = "UTF-8" : a massive specification that encodes content to support the vast range of characters, scripts, and even emojis.
+- the meta charset attribute is used to inform the browser about the character set being use, otherwise your computer will expect one thing and but receives something else
+
+- you place ``` meta charset = "UTF-8"``` within the head element on every page og the website
+- <b>By defining the lang, dir, and charset for a project, you contribute to a more inclusive future for the web.</b>
+
+
+
+
+
 
 
 
