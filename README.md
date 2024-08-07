@@ -452,7 +452,8 @@ The footer signifies that there are extra things to convey, regardless of its po
 
 - ``<table></table>`` (table)- wraps the whole table
 - ``<tr></tr>``(TR - table row) - wraps around a set of elements, defining them as belonging to the same row. used in colspan, rowspan, headers
-- ``<th></th>``(TH -table header)
+- ``<th></th>``(TH -table header) - Defines a header for a column. used in colspan, rowspan, scope.
+
 
 
 
