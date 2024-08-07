@@ -398,7 +398,45 @@ The footer signifies that there are extra things to convey, regardless of its po
 - The input element does not have a closing tag due to its older structure
 -  a button is needed for users to submit the form: use a button element
 
-### More Form Functions
+### More Form Functions 
+
+```html
+
+<form action = "success.html" method = "get">
+  <label for= "name" >Name</label>
+  <input name = "name" id = "name" type = "text">
+  <label for = "email">Email</label>
+  <input name = "email" id = "Email"
+         type = "email" required
+         placeholder = "me@example.com">
+</form>
+
+```
+
+- by leaving the "type" element, the browser will automatically assume that it is text. The browser will verify that the data that was entered is what is given within the type. I the user tries to type anything other than what is told, they will get a warning and would be asked to fix it.
+- We can also add a required attribute to make the email feel required and the browser will insist that the user should fill out the email field before the form can be submitted, and if an email is not entered, the browser will not submit the form when the submit button is selected. Instead, a reminder to fill out the required fields is given.
+
+### Other Form Element Types
+```html
+   <form action = "received.html" method = "get">
+     <label for = "name">Name</label>
+     <input id = "name" name = "name" type = "text">
+
+     <label for = "email">Email</label>
+     <input id = "email" name = "email" type = "email"
+         placeholder = "you@example.com">
+      
+      <label for = "password">Password</label>
+      <input id = "password" name = "password" type = "password">
+
+      <label for= "search">Search</label>
+      <input id = "search" name = "search" 
+         type = "search" placeholder = "&#128269;">
+
+      <label for = "phone">Phone Number</label>
+      <input id = "phone" name = "phone" type = "tel">
+
+```
 
 
 
