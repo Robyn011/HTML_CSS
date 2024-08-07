@@ -30,13 +30,16 @@ The Web relies on three different programming languages — HTML (HyperText Mark
 - It uses tags (opening tags and closing tags) 
 - Some elements, like paragraphs, require both an opening and a closing tag, while others do not. 
 - These tags work together to define elements 
-- Inside the paragraph, there is another phrase that is emphasized, which we have turned into a separate element by using opening and closing em tags:<p>abdbsdabi <em>emphasizes text</em></p> 
+- Inside the paragraph, there is another phrase that is emphasized, which we have turned into a separate element by using opening and closing em tags:
+```html 
+<p>abdbsdabi <em>emphasizes text</em></p> 
+```
 - HTML elements can be nested within one another 
 - an entire HTML document is basically a bunch of HTML elements nested inside each other: it is called a DOM (Document Object Model) tree 
 
  
 
-### HTML Headlines <h1></h1>... <h6></h6> 
+### HTML Headlines ```<h1></h1>... <h6></h6> ```
 
 - these elements serve the purpose of dividing the content into smaller, more digestible chunks 
 - The HTML elements used for marking up headlines come in six diverse types: h1, h2, h3, h4, h5, and h6. 
@@ -65,10 +68,10 @@ The Web relies on three different programming languages — HTML (HyperText Mark
 
 In HTML, there are three types of lists: unordered lists, ordered lists, and definition lists. 
 
-- To define the entire list and specify its type, we wrap all the items in a <ul></ul> element, which stands for an unordered list.   
--The next type of list is the ordered list, which is similar to the unordered list but with a slight difference. Instead of using <ul> to wrap the list items, we use <ol></ol>. This will display the list with numbered steps, showing the order clearly. 
+- To define the entire list and specify its type, we wrap all the items in a ```<ul></ul>``` element, which stands for an unordered list.   
+-The next type of list is the ordered list, which is similar to the unordered list but with a slight difference. Instead of using ```<ul>``` to wrap the list items, we use ```<ol></ol>```. This will display the list with numbered steps, showing the order clearly. 
 - Unordered and ordered lists are quite similar, except for the wrapping element they use. 
-- In HTML, there is another type of list called the "definition list" or "description list."<dl></dl>. Unlike unordered or ordered lists with their list items. This is basically like you are creating a list of definitions. Within the <dl> tags you first add <dt></dt> and within that tag, it would be the definition title. After the <dt> tags you add <dd></dd> tags as the "definition description". 
+- In HTML, there is another type of list called the "definition list" or "description list."```<dl></dl>```. Unlike unordered or ordered lists with their list items. This is basically like you are creating a list of definitions. Within the ```<dl>``` tags you first add ```<dt></dt>``` and within that tag, it would be the definition title. After the ```<dt>``` tags you add ```<dd></dd>``` tags as the "definition description". 
 
 <b>In summary, we now have three types of lists in HTML: unordered lists, ordered lists, and definition lists.</b>
 
@@ -83,8 +86,8 @@ To create something that looks like a quote you do this:
 ```
 
 ```html
-<q></q>= These quotes are simply typed in, but we believe they should be curly quotes, not straight ones
-<!-- HTML attributes provide additional information to HTML elements. In this case, the datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this-->
+<q></q> = <!--These quotes are simply typed in, but we believe they should be curly quotes, not straight ones
+ HTML attributes provide additional information to HTML elements. In this case, the datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this -->
 <time datetime="2025-05-08">May 8, 2025</time>.(Date Element)
 -  for time stamps: <time datetime="14:15:28.5">14:15:28.5</time>.(Time element)
 ```
@@ -92,7 +95,7 @@ To create something that looks like a quote you do this:
 
 ### HTML Date and Time Inputs
 
- - To format a specific moment or range in time in a way that computers can understand, we use the <time> element. It consists of an opening tag (<time>) and a closing tag (</time>). For example, we can use it like this:
+ - To format a specific moment or range in time in a way that computers can understand, we use the ```<time> ```element. It consists of an opening tag (```<time>```) and a closing tag (```</time>```). For example, we can use it like this:
    ```html
    <time>May 8th</time> or <time>May 8th 2025</time>
    ```
@@ -381,7 +384,7 @@ The footer signifies that there are extra things to convey, regardless of its po
 
 **Remember, the main element is used once per page to wrap the main content, while the header, footer, article, section, and aside elements are the five sectioning elements in HTML. They are combined and nested to structure the content of a webpage.**
 
-## Workig with Forms and Interactive Elements
+## Working with Forms and Interactive Elements
 
 ### Form Fundamentals
 ![Figure_76_Working_with_forms](https://github.com/user-attachments/assets/d2697fcd-2c77-450b-9a9b-279b5871e9e4)
@@ -438,6 +441,18 @@ The footer signifies that there are extra things to convey, regardless of its po
 
 ```
 
+- checkboxes, select lists, and radio buttons.
+- checkboxes : use a label and an input and this time with a type of checkbox. Include an attribute of checked which tellls the browser that by default, when the page first loads, we would like this box to start out as checked. 
+
+## Organizing Tabular Information in HTML
+
+### Building HTML Tables
+
+-To create an HTML table, you use several diffferent HTML elements in just the right combination. Table, TR, TH, and TD.
+
+- ``<table></table>`` (table)- wraps the whole table
+- ``<tr></tr>``(TR - table row) - wraps around a set of elements, defining them as belonging to the same row. used in colspan, rowspan, headers
+- ``<th></th>``(TH -table header)
 
 
 
