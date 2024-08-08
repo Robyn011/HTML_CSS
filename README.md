@@ -1,4 +1,4 @@
-# HTML & CSS introduction: 
+# HTML & CSS: Introduction to HTML: 
  
 ## The Function of HTML 
 
@@ -460,6 +460,54 @@ In HTML we use the TR element to markup each row, a couple of TR opening and clo
 
 Why are Tables the prefered option for creating layouts in HTML email?
 - Because the other better options are not supported
+
+## Recap: Introduction to HTML
+
+### MDN Web Docs
+
+- a place to find authoritative reference documentation.(e.g. looking things up in a dictionary but pertaining to HTML)
+- describes each element, each attribute, what it is used for, how to write the code, etc.
+- has code examples, browser support charts, and links to where you can find that particular technology in a specification.
+- There is also alot of great advice on MDN about how to best combine HTML elements for particular use cases and typaes of content.
+
+### HTML Specifications
+
+- a document written by the w3c that defines all of the rules of HTML, or Hypertext Markup Language
+- The canonical source of truth about any web technology. 
+- The web standard document from which that technology came. 
+- The web and all of its parts, HTTP, URL, HTML, CSS, JavaScript. Each of these technologies exist because of a group of people collaborated on a plan for that technology.
+
+### WCAG Guidelines 
+
+- stands for Web Content Accessibility Guidelines
+- it is the official specification on accessibility best practices.
+
+### CSS 
+
+- The styling of the website
+
+
+# HTML & CSS: Introduction to CSS:
+
+## HTML and CSS
+
+### What is CSS?
+
+- it is a style sheet that holds all the styles for your webpage.
+- it affs visual appeal to your webpage. 
+- to connect the css page to your HTML page, you simply just link them together
+- A style sheet within the browser determines this unattractive appearance, with Times New Roman font, bold headings, and blue underlined link which aren't pleasing to the eye. By using CSS, it'll make our pages look better by changing the font, colors, and spacing.
+
+
+
+CSS has two parts:
+- The selector(specifies a pattern in HTML, and if the pattern matches.)
+- The declaration blocks(the styles within the declaration block are applied to the corresponding HTML elements)
+
+
+
+
+
 
 
 
