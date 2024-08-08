@@ -514,6 +514,7 @@ In CSS, each style declaration consists of two parts:
 - A property
 - A value
 
+## Writing Your first Comment and Element Selector
 
 ![Figure_3_CSS_selector](https://github.com/user-attachments/assets/c5ac274f-e588-4bb6-9f07-a6037b1e1e7d)
 
