@@ -505,6 +505,7 @@ CSS has two parts:
 - The declaration blocks(the styles within the declaration block are applied to the corresponding HTML elements)
 
 
+![HTML-CSS102Fig2](https://github.com/user-attachments/assets/84d648bc-b297-46c7-969d-0e94ea76ec96)
 
 
 
