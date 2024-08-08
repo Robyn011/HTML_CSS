@@ -515,6 +515,7 @@ In CSS, each style declaration consists of two parts:
 - A value
 
 
+![Figure_3_CSS_selector](https://github.com/user-attachments/assets/c5ac274f-e588-4bb6-9f07-a6037b1e1e7d)
 
 
 
