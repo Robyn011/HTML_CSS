@@ -60,7 +60,7 @@ The Web relies on three different programming languages — HTML (HyperText Mark
   ```
 
 
-<b> To summarize, there are four elements in HTML that allow us to mark text as bold or italicized. Two of them, "<em>" and "<strong>", convey meaning and serve a language-related purpose. The other two, "<i>" and "<b>", do not carry any specific meaning and are used solely for visual styling. <b>
+<b> To summarize, there are four elements in HTML that allow us to mark text as bold or italicized. Two of them, ```<em>``` and ```<strong>```, convey meaning and serve a language-related purpose. The other two, ```<i>``` and ```<b>```, do not carry any specific meaning and are used solely for visual styling. <b>
 
 
  
