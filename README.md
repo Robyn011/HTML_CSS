@@ -458,6 +458,10 @@ The footer signifies that there are extra things to convey, regardless of its po
 In HTML we use the TR element to markup each row, a couple of TR opening and closing tags to make a couple of rows, then we put the content inside of each row. Then use the TD element to wrap a cell of content and the image with the image element. Including some CSS to make the table look more like something you want. We put the content for the header in the first row, wrapping each one in a TH element insead of a TD element. TD stands for table data, whilst TH stands for table header.
 
 
+Why are Tables the prefered option for creating layouts in HTML email?
+- Because the other better options are not supported
+
+
 
 
 
