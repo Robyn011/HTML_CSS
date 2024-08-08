@@ -122,7 +122,7 @@ To create something that looks like a quote you do this:
 To access the developer tools, we can either right-click on the demo and select "inspect element," or opt to go to "tools," then "web developer," and choose "inspector." This will open up the developer tools, which offer a wide range of tabs with different tools or controls as it is sometimes also referred to.
 
 ### HTML Attributes
-- Class attribute = 
+- Class attribute = used to assign one or more class names to an HTML element. These class names can be used to apply CSS styles or manipulate the element with JavaScript. By grouping elements with the same class name, you can manage their styles or behaviors collectively, rather than individually.
 - Id Attribute = we can only use unique names once on an entire HTML page. IDs can be used for CSS targeting. IDs come in handy when we need to address specific elements in JavaScript or targeted links.
 
   <b>As a user, you can modify the content, but please note that refreshing the webpage will revert it back to the original state. This is because HTML alone only provides the editing functionality; the back-end developers need to create a system for capturing and saving the new content. The process of saving content varies across different websites and is typically implemented in JavaScript.</b>
