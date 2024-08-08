@@ -501,11 +501,20 @@ Why are Tables the prefered option for creating layouts in HTML email?
 
 
 CSS has two parts:
-- The selector(specifies a pattern in HTML, and if the pattern matches.)
+- The selector(specifies a pattern in HTML, and if the pattern matches. selects specific elements of our page)
 - The declaration blocks(the styles within the declaration block are applied to the corresponding HTML elements)
 
 
+### CSS Components
+
 ![HTML-CSS102Fig2](https://github.com/user-attachments/assets/84d648bc-b297-46c7-969d-0e94ea76ec96)
+
+In CSS, each style declaration consists of two parts:
+
+- A property
+- A value
+
+
 
 
 
