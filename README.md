@@ -571,11 +571,9 @@ similar to the "Formatting Color in CSSS" section, but you just use background-c
 
 - When working with images, it is important to choose the right format.
 
+### Working with Background Images in CSS
 
-
-
-
-
-
+- background: url('image url/ link in here')
+- background images can flex and can tile both horizintally(x-axis) and vertically(y-axis)
 
 
