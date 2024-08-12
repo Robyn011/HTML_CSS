@@ -514,11 +514,34 @@ In CSS, each style declaration consists of two parts:
 - A property
 - A value
 
-## Writing Your first Comment and Element Selector
+### Writing Your first Comment and Element Selector
 
 ![Figure_3_CSS_selector](https://github.com/user-attachments/assets/c5ac274f-e588-4bb6-9f07-a6037b1e1e7d)
 
 
+### Writing a Class Selector
+
+- You can assign classes to HTML elements to create a reference point for styling.
+- class: an attribute that can be added to any HTML element, providing additional details about that element.
+- we access the class attribute using a dot (.) efire the class name to differentiate it from HTML element selectors. e.g .intro
+- we can use a span element with a class attribute 
+- **Remember, the style declarations can be placed in any order. If we apply the "guarentee" class to a prograph element, the entire paragraph will be orange and bold. The HTML helps us select a specific part of a sentence.**
+
+### Grouping Selectors
+
+- Whenever you see selectors grouped together with commas, it means each of those items is a separate selector. Whether it is paragraphs, list items, or anything with the class "mineral," the text will be styled as green.
+(the comma is like an "and" e.g, h1,p { color: green;}, which means make h1 green AND make p green)
+
+### Decendent Selectors
+
+- Decendant Selector- allows us to select list items that are decendants of either an ordered or an unordered list. The relationship can be direct or indirect similar to a family tree.
+- the space between a list signifies a decendant relationship
+
+
+## Identify a Color Scheme
+ 
+ ### Formatting Color in CSS
+ 
 
 
 
