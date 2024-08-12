@@ -577,3 +577,54 @@ similar to the "Formatting Color in CSSS" section, but you just use background-c
 - background images can flex and can tile both horizintally(x-axis) and vertically(y-axis)
 
 
+tip: Percentages can be used to adjust where these images appear on the page. It depends on the background image you are using, but it can look good.
+
+## CSS Boxes, Types and Sizes
+
+### Undestanding Type in CSS
+
+People who are not designers usually categorize fonts into two typpes:
+
+1. Serif
+2. Sans serif
+
+
+With computer typesetting, sans serif fonts are mainly used on the web for ectended text because they look clean and are easy to read.
+
+### Applying Type Formatting with CSS
+
+To improve the appearance using different fonts:
+
+1. add a font-family property to the body element. This property allows us to change the fonts on the page.
+2. Use a font stack, starting eith Arial, then Helvetica, and finaly Sans-serif, The web browser will evaluate these fonts in order. If Aerial is installed, it will be displayed. Outherwise, it will try Helvetica. If neither is available, the default Sans-serif font on the computer will be used.
+
+On your computer, have both Arial and Helvetica installed. If we look at the plus sign on the page, we can easily compare the two fonts. When Arial is removed from the font stack and only Helvetica is used, the plus sign shifts slightly. This demonstrates difference between the two fonts. If Helvetica is removed from the font stack and only Helvetica is used, the plus sign shifts slightly. This demonstrates the difference between the two fonts. If Helvetica is removed as well and we just use the font-family Sans-serif as the font for the entire page. However, it is not necessary tostick with just one use a serif font like Georgia and Times New Roman for h1.
+
+NB: Remember to enclose font names with more than one word in quotes, and place the comma outside the quotes.
+
+By having a contrasting serif font for headings and a Sans-serif font for paragraphs, we improve readability, especially for longer text on screens. We can also experiment with additional properties. For instance, we can make the text italic by adding font-style: italic. Additionally, if we want to remove the bold style from our headings, we can set the font weight to normal. Thede adjustments give our headings a unique look. Just by removing the Times text from the page and using Sans-serif font, the overall appearance has already improved signigicantly. It is much easier to read.
+
+### Understanding and Applying size in CSS
+
+There are two types of sizing:
+#### Absolute:
+- Points
+- Pixels
+- Don't change with screen size
+
+### Relative:
+- Percentage 
+- Rems
+- Changing with screen size zoom
+
+Absolute sizes, such as points
+
+
+
+
+
+
+
+
+
+
