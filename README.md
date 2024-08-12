@@ -541,8 +541,37 @@ In CSS, each style declaration consists of two parts:
 ## Identify a Color Scheme
  
  ### Formatting Color in CSS
- 
+
+hex codes color wheel:
+
 ![HTML-CSS102Fig17](https://github.com/user-attachments/assets/b676b61d-4806-40f6-88d0-ddd4d61462ba)
+
+- usually 6-digits long
+- consist of numbers zer to nine and letters A to F
+- first two digit represent red, the next two represent green, and the final two represent blue.
+- these digits correspond to numbers ranging from 0 to 255
+
+Note: The chart of named colors also provides the hex value equivalent.
+
+- whilst editing other people's CSS, you may come across different syntax worth mentioning. For instance, the hex value "778899" can be shortened to "789" if each two-digit pair is the same. This three digit format is relatively common but only applicable when the numbers are identical
+
+
+"778899cc"
+
+- Another syntax is the RGB format, where colors are written out using Base 10 numbers to specify the red, green, and blue channels. this dormat can also be represented as an eight-digit hex number or RGBA.
+- The last "cc" number corresponds to Alpha, which relates to the opacity and transparency od the color.
+
+
+### Background and Text Color in CSS 
+
+similar to the "Formatting Color in CSSS" section, but you just use background-color: "whatever color you want".
+
+
+### Understanding Images in CSS
+
+- When working with images, it is important to choose the right format.
+
+
 
 
 
