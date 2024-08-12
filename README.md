@@ -542,10 +542,7 @@ In CSS, each style declaration consists of two parts:
  
  ### Formatting Color in CSS
  
-
-
-
-
+![HTML-CSS102Fig17](https://github.com/user-attachments/assets/b676b61d-4806-40f6-88d0-ddd4d61462ba)
 
 
 
