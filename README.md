@@ -608,7 +608,6 @@ By having a contrasting serif font for headings and a Sans-serif font for paragr
 
 There are two types of sizing:
 #### Absolute:
-- Points
 - Pixels
 - Don't change with screen size
 
@@ -617,7 +616,46 @@ There are two types of sizing:
 - Rems
 - Changing with screen size zoom
 
-Absolute sizes, such as points
+Absolute sizes, such as points ir pixels, remain the same regargless of the screen size.
+
+Reletive units, Like percentages or R-E-M can adjust based on the page size. When you zoom in, the font sizes using relative units scaale proportionally with the rest of the page.
+
+### Understanding the Box Model in CSS
+
+- padding: The space between the border and the content. It cant also have its own background color. When we add padding, we are essentially pushing the edge of the bosc away from the contenent.
+
+- Margin: The space between elements on the page. If you want to swparate intersecting elements, adding some margin will do the trick.
+
+We can assign properties to individual sides or apply them to all four sides at once. There are shorthand values available for border, padding, and margin, which provide a more concise way to set these properties. Only a few examples have been provided here, but there is more to explore on this topic. 
+
+
+We can a red border of one pixel thickness by using CSS property : ```border : 1px solid red```. This will create a solid red border around the element. If we use the property ```border-left```, it will only apply the border to the left side of the box, while the other sides remain unaffected.
+
+
+When it comes to setting margins, using ```margin: 1rem```will add one REM of margin to all four sides of the sides of the box. However, if we specifically use ```margin-right```, it will only add the margin to the right side of the box.
+
+Padding also provides flexibiliy. We can use fractional REMs to set padding on all four sides or only on a single side. There are other shorthand notations available for padding and margin, as well as longhand properties for borders. But let's not dive into all the different variations right now to avoid confusion.
+
+ ## Advanced CSS Properties and Concepts
+
+ ### Styling Links With CSS
+
+ The best way to approach links is by using the "a" anchor tag. We can specify "a" and set the color to 648fff, a nicer blue color than before. This style will apply to all links, including visited links, which will also turn blue. The reason behind this is that the browser's style sheet had blue and purple for links, but now we've added a new style that makes everything blue.
+
+ NB: Remember, there are different states for links, and we can make expectations for each state
+
+ One common exception is the "a:hover" state, which triggers when we hover over a link. in this case, the color can be changed to pink(fe6100) and the underline can be removed by using ```text-decoration: none```.
+
+
+If we want separate styles for visited and unvisited links, we can also do that. We have to define the blue color as the ```a:link``` style for unvisited links, and the shade of purple as the ```a:visited``` style for visited links on your page, they should now appear in this pleasant shade off purple. And, of cpirse, the hover style remains intact for when we roll our mouse over the links.
+
+NB: Just keep in mind that the order of these styles in crucial. Either use ```a``` and then ```a:hover``` or ```a:link```, ```a:visited```, and ```a:hover``` in that specific order for the styling to work correctly.
+
+### Inheritance in CSS
+The ```*``` selector selects everything. 
+
+### Debugging CSS with Borders and Background Colors
+
 
 
 
