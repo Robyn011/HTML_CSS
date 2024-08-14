@@ -656,7 +656,11 @@ The ```*``` selector selects everything.
 
 ### Debugging CSS with Borders and Background Colors
 
+The distinction between block and inline elements is important. Block elements, taje up the full wiwdth of their container "in this case, the body"
 
+Inline Elements, like the links, are only as wide as their content.
+
+tip: If you are unsure about how something looks, you need to see it in order to style it. Just put a border around it and add some background colors.
 
 
 
