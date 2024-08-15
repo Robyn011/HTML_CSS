@@ -391,7 +391,7 @@ The footer signifies that there are extra things to convey, regardless of its po
 
 - they have been an essetial part of the web for a long time. They are used for various tasks like logging into websiites, making purchases, conducting searches, and adding content.
 - It is important to use semantic form elements in HTML instead of divs ad spans because it allows us to leverage the built-in power of the browser. Therefore we avoid wasting time and effort trying to recreate functionalities that already exist in the browser.
-- By using HTML form elements, we ensure that fors will be compatible with all devices and input/output hardware, even those we may not be familiar with.
+- By using HTML form elements, we ensure that it will be compatible with all devices and input/output hardware, even those we may not be familiar with.
 - creating a form:
 1. we start with the form element( informs the browser about the presence of a form using opening and closing tags)
 - in the newsletter sighnup form, tthere will be two fields:
@@ -559,7 +559,7 @@ Note: The chart of named colors also provides the hex value equivalent.
 "778899cc"
 
 - Another syntax is the RGB format, where colors are written out using Base 10 numbers to specify the red, green, and blue channels. this dormat can also be represented as an eight-digit hex number or RGBA.
-- The last "cc" number corresponds to Alpha, which relates to the opacity and transparency od the color.
+- The last "cc" number corresponds to Alpha, which relates to the opacity and transparency of the color.
 
 
 ### Background and Text Color in CSS 
@@ -583,7 +583,7 @@ tip: Percentages can be used to adjust where these images appear on the page. It
 
 ### Undestanding Type in CSS
 
-People who are not designers usually categorize fonts into two typpes:
+People who are not designers usually categorize fonts into two types:
 
 1. Serif
 2. Sans serif
@@ -598,7 +598,7 @@ To improve the appearance using different fonts:
 1. add a font-family property to the body element. This property allows us to change the fonts on the page.
 2. Use a font stack, starting eith Arial, then Helvetica, and finaly Sans-serif, The web browser will evaluate these fonts in order. If Aerial is installed, it will be displayed. Outherwise, it will try Helvetica. If neither is available, the default Sans-serif font on the computer will be used.
 
-On your computer, have both Arial and Helvetica installed. If we look at the plus sign on the page, we can easily compare the two fonts. When Arial is removed from the font stack and only Helvetica is used, the plus sign shifts slightly. This demonstrates difference between the two fonts. If Helvetica is removed from the font stack and only Helvetica is used, the plus sign shifts slightly. This demonstrates the difference between the two fonts. If Helvetica is removed as well and we just use the font-family Sans-serif as the font for the entire page. However, it is not necessary tostick with just one use a serif font like Georgia and Times New Roman for h1.
+On your computer, have both Arial and Helvetica installed. If we look at the plus sign on the page, we can easily compare the two fonts. When Arial is removed from the font stack and only Helvetica is used, the plus sign shifts slightly. This demonstrates difference between the two fonts. If Helvetica is removed from the font stack and only Helvetica is used, the plus sign shifts slightly. This demonstrates the difference between the two fonts. If Helvetica is removed as well and we just use the font-family Sans-serif as the font for the entire page. However, it is not necessary to stick with just one use a serif font like Georgia and Times New Roman for h1.
 
 NB: Remember to enclose font names with more than one word in quotes, and place the comma outside the quotes.
 
@@ -618,7 +618,7 @@ There are two types of sizing:
 
 Absolute sizes, such as points ir pixels, remain the same regargless of the screen size.
 
-Reletive units, Like percentages or R-E-M can adjust based on the page size. When you zoom in, the font sizes using relative units scaale proportionally with the rest of the page.
+Reletive units, Like percentages or R-E-M can adjust based on the page size. When you zoom in, the font sizes using relative units scale proportionally with the rest of the page.
 
 ### Understanding the Box Model in CSS
 
@@ -647,7 +647,7 @@ Padding also provides flexibiliy. We can use fractional REMs to set padding on a
  One common exception is the "a:hover" state, which triggers when we hover over a link. in this case, the color can be changed to pink(fe6100) and the underline can be removed by using ```text-decoration: none```.
 
 
-If we want separate styles for visited and unvisited links, we can also do that. We have to define the blue color as the ```a:link``` style for unvisited links, and the shade of purple as the ```a:visited``` style for visited links on your page, they should now appear in this pleasant shade off purple. And, of cpirse, the hover style remains intact for when we roll our mouse over the links.
+If we want separate styles for visited and unvisited links, we can also do that. We have to define the blue color as the ```a:link``` style for unvisited links, and the shade of purple as the ```a:visited``` style for visited links on your page, they should now appear in this pleasant shade off purple. And, of course, the hover style remains intact for when we roll our mouse over the links.
 
 NB: Just keep in mind that the order of these styles in crucial. Either use ```a``` and then ```a:hover``` or ```a:link```, ```a:visited```, and ```a:hover``` in that specific order for the styling to work correctly.
 
@@ -656,7 +656,7 @@ The ```*``` selector selects everything.
 
 ### Debugging CSS with Borders and Background Colors
 
-The distinction between block and inline elements is important. Block elements, taje up the full wiwdth of their container "in this case, the body"
+The distinction between block and inline elements is important. Block elements, take up the full width of their container "in this case, the body"
 
 Inline Elements, like the links, are only as wide as their content.
 
