@@ -155,7 +155,7 @@ To access the developer tools, we can either right-click on the demo and select 
 - ```<p>This is a sentence <a href = "https://example.com">witha link</a> in the midset od the text</p>```
 - ```<p><a href = "https://example.com"><img src = "https://graphiccreationlab.weebly.com/uploads/5/1/1/2/51125965/3976798_orig.jpg"></a></p>```
 - When we want to create a link,``` <i>we use the A element</i>```, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference, a nerdy phrase from the past. Between the opening and closing A tags, we can place text or images, or both, to make them clickable.
-- he A element is inline and can be placed within a paragraph or any other text, or even the image itself.
+-  An element is inline and can be placed within a paragraph or any other text, or even the image itself.
 - the difference between HTTP and HTTPS: The "S" in HTTPS stands for Secure
 
 <b>When creating links as developers or content creators, we need to include them ourselves. This protocol was one of the most significant inventions when the web was created. This is how links are made using absolute URLs.</b>
