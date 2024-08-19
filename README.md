@@ -408,10 +408,9 @@ The footer signifies that there are extra things to convey, regardless of its po
 <form action = "success.html" method = "get">
   <label for= "name" >Name</label>
   <input name = "name" id = "name" type = "text">
-  <label for = "email">Email</label>
-  <input name = "email" id = "Email"
-         type = "email" required
-         placeholder = "me@example.com">
+  
+  
+  
 </form>
 
 ```
