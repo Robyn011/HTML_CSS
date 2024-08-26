@@ -317,7 +317,7 @@ What every website needs:
 1. the file should start wuth a doctype statement which indicates the era of your HTML page
 2. we need to enclose our code or everything but the "doctype" statement within a HTML element. ```<html></html>```
 
-start wih declaring the language being used within the page, then the content flow/ direction of the content. Within the HTML element, there are two main parts where your content goes:
+start with declaring the language being used within the page, then the content flow/ direction of the content. Within the HTML element, there are two main parts where your content goes:
 
 1. ```<head></head>``` : contains all the metadata that the browser needs to know but will ot display on the page
 2. ```<body></body>``` : for all the content and is composed of various elements already discussed in this course. The body is where most of the action happpens.
@@ -354,7 +354,7 @@ The main element is used once per webpage and tells the browser where the main c
 
 #### 2. Header
 
-difference between a head elemet and a header element:
+difference between a head element and a header element:
 - The head element contains doecument metadata, and a header element contains text to be displayed. The link element is a crucial component used extensively within the head section. It serves to connect various assets that should load, such as CSS files, fonts, and favicons. To inform the browser about the type of asset, utilize the rel attribute.
 (Head is where the file's metadata lives and is not displayed to users. Header is used for site headers, article headers, and headers within the content. A header is usually found at the top of most web pages and may include a logo, site name, and navigation.)
   
@@ -379,7 +379,7 @@ The footer signifies that there are extra things to convey, regardless of its po
 #### 6. Aside
 
 -  is for content that is off to the side
--  ädditional information, but it is not appart od the articals main flow.
+-  additional information, but it is not apart of the articles main flow.
 -  Ads cam also be marked as an aside.The visual layout often conveys meanig and these HTML elements help transfer that meaning from the design to the content.
 
 **Remember, the main element is used once per page to wrap the main content, while the header, footer, article, section, and aside elements are the five sectioning elements in HTML. They are combined and nested to structure the content of a webpage.**
@@ -389,12 +389,12 @@ The footer signifies that there are extra things to convey, regardless of its po
 ### Form Fundamentals
 ![Figure_76_Working_with_forms](https://github.com/user-attachments/assets/d2697fcd-2c77-450b-9a9b-279b5871e9e4)
 
-- they have been an essetial part of the web for a long time. They are used for various tasks like logging into websiites, making purchases, conducting searches, and adding content.
+- they have been an essetial part of the web for a long time. They are used for various tasks like logging into websites, making purchases, conducting searches, and adding content.
 - It is important to use semantic form elements in HTML instead of divs ad spans because it allows us to leverage the built-in power of the browser. Therefore we avoid wasting time and effort trying to recreate functionalities that already exist in the browser.
 - By using HTML form elements, we ensure that it will be compatible with all devices and input/output hardware, even those we may not be familiar with.
 - creating a form:
 1. we start with the form element( informs the browser about the presence of a form using opening and closing tags)
-- in the newsletter sighnup form, tthere will be two fields:
+- in the newsletter sighnup form, there will be two fields:
 1. Name: Use the input element to provide places for users to input their name
 2. Email: Use the input element to provide places for users to input their email
 - These field names can be turned into labels using the label element.
@@ -621,9 +621,9 @@ Reletive units, Like percentages or R-E-M can adjust based on the page size. Whe
 
 ### Understanding the Box Model in CSS
 
-- padding: The space between the border and the content. It cant also have its own background color. When we add padding, we are essentially pushing the edge of the bosc away from the contenent.
+- padding: The space between the border and the content. It cant also have its own background color. When we add padding, we are essentially pushing the edge of the box away from the contenent.
 
-- Margin: The space between elements on the page. If you want to swparate intersecting elements, adding some margin will do the trick.
+- Margin: The space between elements on the page. If you want to separate intersecting elements, adding some margin will do the trick.
 
 We can assign properties to individual sides or apply them to all four sides at once. There are shorthand values available for border, padding, and margin, which provide a more concise way to set these properties. Only a few examples have been provided here, but there is more to explore on this topic. 
 
