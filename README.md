@@ -314,12 +314,12 @@ Div and span come in handy when there is not another suitable element anf acting
 
 What every website needs:
 
-1. the file should start wuth a doctype statement which indicates the era of your HTML page
+1. the file should start with a doctype statement which indicates the era of your HTML page
 2. we need to enclose our code or everything but the "doctype" statement within a HTML element. ```<html></html>```
 
 start with declaring the language being used within the page, then the content flow/ direction of the content. Within the HTML element, there are two main parts where your content goes:
 
-1. ```<head></head>``` : contains all the metadata that the browser needs to know but will ot display on the page
+1. ```<head></head>``` : contains all the metadata that the browser needs to know but will display on the page
 2. ```<body></body>``` : for all the content and is composed of various elements already discussed in this course. The body is where most of the action happpens.
 
 ### Document Head
