@@ -661,11 +661,76 @@ Inline Elements, like the links, are only as wide as their content.
 
 tip: If you are unsure about how something looks, you need to see it in order to style it. Just put a border around it and add some background colors.
 
+#### Which HTML attribute is used to define inline styles?
+- style  
+
+#### How do you display a border like this:
+
+The top border = 10 pixels
+The bottom border = 5 pixels
+The left border = 20 pixels
+The right border = 1pixel?
 
 
+- border-width:10px 1px 5px 20px; clockwise staring from the top :)  
+
+#### How do you make a list that lists its items with squares?
+
+- list-style-type: square;  
+
+#### What is the default value of the position property?
+
+- static  
+
+#### Which below property of CSS is used to set the indentation of the first line in a block of text ?
+
+- text-indent property
 
 
+The text-indent property in CSS is used to define the indentation of the first line in each block of text. It also takes negative values. It means if the value is negative then the first line will be indented to the left.
 
 
+#### Which CSS property is used to control the spacing between lines of text?
 
+- line-height
+
+#### How do you apply multiple styles to an element using a class?
+
+- < div class="style1 style2" >
+
+#### What is the purpose of the CSS property z-index?
+
+- Specifies the stacking order of positioned elements
+
+#### Which CSS3 feature is used to select elements based on their state, such as hover or focus?
+
+- :pseudo-class
+
+#### What does the CSS property transform: scale(2) do?
+
+- Scales the element to twice its size
+
+#### What is the flex shorthand property used for in Flexbox?
+
+-  Sets the flex-grow, flex-shrink, and flex-basis properties at once
+
+#### What does the CSS property backface-visibility: hidden; do?
+
+- Makes the element invisible from the back
+
+#### In CSS Grid, what is the purpose of the grid-template-areas property?
+ 
+- Creates named grid areas
+
+#### Which CSS property is used to create a flexible and responsive navigation bar?
+
+- flexbox
+
+#### What is the purpose of the CSS counter-reset property?
+
+- Resets the count of a counter
+
+#### How can you create a CSS animation that repeats indefinitely?
+
+- animation-repeat: infinite;
 
